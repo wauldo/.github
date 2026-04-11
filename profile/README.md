@@ -52,43 +52,53 @@ We ran **70 adversarial tests** against 6 popular RAG frameworks. Same LLM, same
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="33%" valign="top" align="center">
 
-### [🏆 wauldo-leaderboard](https://github.com/wauldo/wauldo-leaderboard)
+### 🏆
 
-Adversarial bench that scores every popular RAG framework on the same 70-test dataset. Daily refresh, open-source, MIT.
+#### Leaderboard
 
-```bash
-git clone https://github.com/wauldo/wauldo-leaderboard
-cd wauldo-leaderboard
-make build && make smoke
-```
+Adversarial bench. 6 RAG frameworks. 70 tests. Daily refresh. Open-source, MIT.
+
+<a href="https://github.com/wauldo/wauldo-leaderboard"><img src="https://img.shields.io/badge/repo-wauldo--leaderboard-22c55e?style=flat-square" alt="wauldo-leaderboard" /></a>
 
 </td>
-<td width="33%" valign="top">
+<td width="33%" valign="top" align="center">
 
-### [🦀 ragrs](https://github.com/wauldo/ragrs)
+### 🦀
 
-Fast local RAG in Rust. BM25 + sentence-aware chunking + SQLite FTS5. MIT, 1800 LOC, 23 tests, `--verify` flag for trust scoring.
+#### ragrs
 
-```bash
-cargo install ragrs
-ragrs index ./docs
-ragrs query "your question" --verify
-```
+Fast local RAG in Rust. BM25 + FTS5 + sentence chunking. Optional `--verify` flag for trust scoring.
+
+<a href="https://github.com/wauldo/ragrs"><img src="https://img.shields.io/badge/repo-ragrs-dea584?style=flat-square" alt="ragrs" /></a>
 
 </td>
-<td width="33%" valign="top">
+<td width="33%" valign="top" align="center">
 
-### [📚 awesome-rag-hallucination](https://github.com/wauldo/awesome-rag-hallucination)
+### 📚
 
-Curated list of papers, tools and benchmarks on RAG hallucination, prompt injection resistance, and verified generation.
+#### Awesome list
 
-PRs welcome — every entry must link to a reproducible artifact (paper, repo, or dataset).
+Curated papers, tools and benchmarks on RAG hallucination, prompt injection, and verified generation.
+
+<a href="https://github.com/wauldo/awesome-rag-hallucination"><img src="https://img.shields.io/badge/repo-awesome--rag--hallucination-a855f7?style=flat-square" alt="awesome-rag-hallucination" /></a>
 
 </td>
 </tr>
 </table>
+
+### Quickstart
+
+```bash
+# Leaderboard — 30 s smoke test, no API key needed
+git clone https://github.com/wauldo/wauldo-leaderboard.git && cd wauldo-leaderboard
+make build && make smoke
+
+# ragrs — local RAG CLI, index + query + optional trust verification
+cargo install ragrs
+ragrs index ./docs && ragrs query "your question here" --verify
+```
 
 ---
 
