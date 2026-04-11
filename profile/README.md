@@ -1,22 +1,27 @@
 <div align="center">
 
-<a href="https://wauldo.com">
-  <img src="https://raw.githubusercontent.com/wauldo/.github/main/profile/banner.png" alt="Wauldo — Verified AI answers from your documents" width="700" />
-</a>
+<br />
 
-<br /><br />
+# 🛡️ wauldo
 
-# The trust score framework for RAG
+### The trust score framework for RAG
 
-**Your LLM passes demos. It fails in production. We built the layer that catches what every other framework ships.**
+<br />
+
+**Your LLM passes demos.**
+**It fails in production.**
+
+We built the layer that catches what every other framework ships.
 
 <br />
 
 [![Live leaderboard](https://img.shields.io/badge/🏆_Live_leaderboard-wauldo.com%2Fleaderboard-22c55e?style=for-the-badge)](https://wauldo.com/leaderboard)
-[![Benchmarks](https://img.shields.io/badge/📊_Benchmarks-96%25_adversarial-3b82f6?style=for-the-badge)](https://wauldo.com/benchmarks)
+[![Benchmarks](https://img.shields.io/badge/📊_96%25_adversarial-0%25_hallucination-3b82f6?style=for-the-badge)](https://wauldo.com/benchmarks)
 [![Free tier](https://img.shields.io/badge/🚀_Free_tier-RapidAPI-f59e0b?style=for-the-badge)](https://rapidapi.com/binnewzzin/api/smart-rag-api)
 
 <br />
+
+<sub>Python · TypeScript · Rust · MIT · local-first · daily-refreshed leaderboard</sub>
 
 </div>
 
