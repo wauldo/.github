@@ -16,7 +16,7 @@ We built the layer that catches what every other framework ships.
 <br />
 
 [![Live leaderboard](https://img.shields.io/badge/🏆_Live_leaderboard-wauldo.com%2Fleaderboard-22c55e?style=for-the-badge)](https://wauldo.com/leaderboard)
-[![Benchmarks](https://img.shields.io/badge/📊_96%25_adversarial-0%25_hallucination-3b82f6?style=for-the-badge)](https://wauldo.com/benchmarks)
+[![Benchmarks](https://img.shields.io/badge/📊_97%25_adversarial-0%25_hallucination-3b82f6?style=for-the-badge)](https://wauldo.com/benchmarks)
 [![Free tier](https://img.shields.io/badge/🚀_Free_tier-RapidAPI-f59e0b?style=for-the-badge)](https://rapidapi.com/binnewzzin/api/smart-rag-api)
 
 <br />
@@ -35,7 +35,7 @@ We ran **70 adversarial tests** against 6 popular RAG frameworks. Same LLM, same
 
 | Rank | Framework       | Overall  | Injection | Contradiction |
 |------|-----------------|----------|-----------|---------------|
-| 🥇   | **Wauldo**      | **96 %** | **88 %**  | **100 %**     |
+| 🥇   | **Wauldo**      | **97 %** | **88 %**  | **100 %**     |
 | 🥈   | Vanilla LLM     | 86 %     | 68 %      | 100 %         |
 | 🥉   | CrewAI          | 71 %     | 48 %      | 58 %          |
 | 4    | Haystack        | 60 %     | 36 %      | 33 %          |
@@ -157,7 +157,7 @@ Three deterministic controls on top of any existing RAG pipeline — not another
 
 | Metric                        | Value                               |
 |-------------------------------|-------------------------------------|
-| Adversarial pass rate         | **96 %** (67 / 70)                  |
+| Adversarial pass rate         | **97 %** (67 / 70)                  |
 | Hallucination rate            | **0 %** across 100+ bench runs      |
 | Prompt injection resistance   | **88 %** (vs 36 % LangChain)        |
 | Contradiction detection       | **100 %** (vs 25 % LangChain)       |
